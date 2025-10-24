@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="contenido" style="margin-left: 320px; padding: 20px;">
+        <div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+            <h1 style="font-size: 4rem; font-weight: bold; color: #333; text-align: center;">Tienda JP</h1>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul class="list">
+
+            <li class="list_item">
+                <div class="lista_button" id="inicio-btn">
+                    <img src="assets/ho.png" class="list_img">
+                    <a href="#" class="nav_link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list_item">
+                <div class="lista_button" id="calculadora-btn">
+                    <img src="assets/cal.png" class="list_img">
+                    <a href="#" class="nav_link">Calculadora</a>
+                </div>
+            </li>
+
+            <li class="list_item">
+                <div class="lista_button" id="imagenes-btn">
+                    <img src="assets/ima.png" class="list_img">
+                    <a href="#" class="nav_link">Imagenes</a>
+                </div>
+            </li>
+
+             <li class="list_item list_item--click">
+                <div class="lista_button lista_button--click">
+                    <img src="assets/vid.png" class="list_img">
+                    <a href="#" class="nav_link">Video</a>
+                    <img src="assets/der.png" class="list_arrow">
+                </div>
+                <ul class="list_show">
+                    <li class="list_inside">
+                        <a href="#" class="nav_link nav_link--inside" data-video="video1">Milo J</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="#" class="nav_link nav_link--inside" data-video="video2">NSQK</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="#" class="nav_link nav_link--inside" data-video="video3">Juego Favorito</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+<script src="java/home.js"></script>
+</body>
+</html>
